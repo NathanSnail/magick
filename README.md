@@ -114,14 +114,14 @@ due to collision of function names in the C namespace.
 Load ImageMagick directly:
 
 ```lua
-magick = requrie "magick.wand"
+magick = require "magick.wand"
 local img = magick.load_image("some_image.png")
 ```
 
 Load GraphicsMagick directly:
 
 ```lua
-magick = requrie "magick.gmwand"
+magick = require "magick.gmwand"
 local img = magick.load_image("some_image.png")
 ```
 ### Methods
